@@ -26,6 +26,9 @@ class Load extends Phaser.Scene {
         // The multiatlas was created using TexturePacker and the Kenny
         // Particle Pack asset pack.
         this.load.multiatlas("kenny-particles", "kenny-particles.json");
+
+        //loading coin audio
+        this.load.audio("coinSound", "coin.wav");
     }
 
     create() {
